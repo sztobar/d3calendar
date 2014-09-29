@@ -1,0 +1,19 @@
+{
+  "name": "d3calendar",
+  "version": "0.0.0",
+  "description": "SVG calendar built with d3",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.0.1",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-less": "^0.1.7",
+    "grunt-wiredep": "^1.9.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "chaosik",
+  "license": "ISC"
+}
