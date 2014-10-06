@@ -1,0 +1,642 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"que",
+				"queryParams"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/main.less",
+			"settings":
+			{
+				"buffer_size": 315,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 1184,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/app.js",
+			"settings":
+			{
+				"buffer_size": 2664,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Pietruch Mateusz\nSmęt Mateusz\nSolarz Daniel\nSzewczyk Bartosz\nSłodyczka Stanisław\nTrzewiczek Bartłomiej\nTybor Bartłomiej\nTytuła Zofia\nWięcek Piotr\nWojcieszek Bartłomiej\nWojnar Bartłomiej\nZając Kalina\nZenek Karolina\nŻurek Piotr",
+			"settings":
+			{
+				"buffer_size": 225,
+				"line_ending": "Windows",
+				"name": "Pietruch Mateusz"
+			}
+		},
+		{
+			"file": "app/bower_components/d3/d3.js",
+			"settings":
+			{
+				"buffer_size": 325414,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/bar-chart-example.js",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 388,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isnta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/WebDev/js/d3calendar/.editorconfig",
+		"/D/WebDev/js/d3calendar/d3calendar.sublime-project",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/D/WebDev/php/ng-boilerplate/laravel/app/models/Products.php",
+		"/C/xampp/mysql/bin/my.ini",
+		"/D/WebDev/php/ng-boilerplate/laravel/app/controllers/ProductsController.php",
+		"/D/WebDev/php/ng-boilerplate/laravel/app/routes.php",
+		"/D/WebDev/php/ng-boilerplate/Gruntfile.js",
+		"/D/WebDev/php/ng-boilerplate/src/app/directives/loadingOverlay.coffee",
+		"/D/WebDev/php/ng-boilerplate/laravel/app/models/ProductsCategories.php",
+		"/D/WebDev/php/ng-boilerplate/laravel/app/config/view.php",
+		"/D/WebDev/php/absynt/build/ajax/app/controllers/WarehouseController.php",
+		"/D/WebDev/php/ng-boilerplate/src/index.html",
+		"/D/WebDev/php/ng-boilerplate/src/app/warehouse/warehouse-module.coffee",
+		"/D/WebDev/php/ng-boilerplate/src/app/services/$qExtended.coffee",
+		"/D/WebDev/php/ng-boilerplate/src/app/warehouse/filters/warehouse-filter.coffee",
+		"/D/WebDev/php/ng-boilerplate/src/app/warehouse/services/warehouse-resource.coffee",
+		"/D/WebDev/php/ng-boilerplate/src/app/app.coffee",
+		"/D/WebDev/php/ng-boilerplate/src/app/warehouse/templates/warehouse.tpl.html",
+		"/D/WebDev/php/ng-boilerplate/src/app/warehouse/templates/product-modal.tpl.html",
+		"/D/WebDev/php/absynt/build/php/app/macros.php",
+		"/D/WebDev/php/ng-boilerplate/src/app/warehouse/controllers/FormModal.coffee",
+		"/D/WebDev/php/ng-boilerplate/src/less/main.less",
+		"/D/WebDev/php/ng-boilerplate/src/app/warehouse/controllers/warehouse-controller.coffee",
+		"/D/WebDev/php/ng-boilerplate/src/app/warehouse/controllers/warehouse-modal-controller.coffee",
+		"/D/WebDev/php/ng-boilerplate/build.config.js",
+		"/D/WebDev/php/ng-boilerplate/vendor/angular-ui-router/release/angular-ui-router.js",
+		"/D/WebDev/php/ng-boilerplate/vendor/angular/angular.js",
+		"/D/WebDev/php/absynt/package.json",
+		"/D/WebDev/php/absynt/Gruntfile.js",
+		"/D/WebDev/php/absynt/build.config.js",
+		"/D/WebDev/php/absynt/bower.json",
+		"/D/WebDev/php/ng-boilerplate/src/app/app/app.coffee",
+		"/D/WebDev/php/ng-boilerplate/karma/karma-unit.tpl.js",
+		"/D/WebDev/php/ng-boilerplate/src/app/app/warehouse/warehouse-controller.coffee",
+		"/D/WebDev/php/ng-boilerplate/package.json",
+		"/D/WebDev/php/ng-boilerplate/bower.json",
+		"/D/WebDev/php/ng-boilerplate/src/app/app/warehouse/warehouse-module.coffee",
+		"/D/WebDev/php/ng-boilerplate/src/app/app/warehouse/warehouse-filter.coffee",
+		"/D/WebDev/php/ng-boilerplate/module.prefix",
+		"/D/WebDev/php/absynt/vendor/angular-ui-select2/src/select2.js",
+		"/D/WebDev/php/absynt/src/app/warehouse/warehouse-module.coffee",
+		"/D/WebDev/php/absynt/src/app/warehouse/warehouse.tpl.html",
+		"/D/WebDev/php/absynt/src/app/warehouse/warehouse-resource.coffee",
+		"/D/WebDev/php/absynt/src/app/warehouse/warehouse-controller.coffee",
+		"/C/Users/Chaosik/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Chaosik/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/WebDev/php/absynt/src/app/app.coffee",
+		"/D/WebDev/php/absynt/src/less/variables.less",
+		"/D/WebDev/php/absynt/vendor/bootstrap/less/button-groups.less",
+		"/D/WebDev/php/absynt/src/less/main.less",
+		"/D/WebDev/php/absynt/vendor/bootstrap/less/bootstrap.less",
+		"/D/WebDev/php/absynt/src/app/resources.coffee",
+		"/D/WebDev/php/absynt/vendor/angular-ui-select2/bower.json",
+		"/D/WebDev/php/absynt-gulp/bower_components/bootstrap/bower.json",
+		"/D/WebDev/php/absynt-gulp/bower.json",
+		"/D/WebDev/php/absynt-gulp/gulp/tasks/wiredep.js",
+		"/D/WebDev/php/absynt-gulp/src/app.coffee",
+		"/D/WebDev/php/absynt-gulp/build/index.html",
+		"/D/WebDev/php/absynt-gulp/gulpfile.js",
+		"/D/WebDev/php/absynt-gulp/src/index.html",
+		"/D/WebDev/php/absynt new/gulpfile.js",
+		"/D/WebDev/php/absynt-gulp/gulp/tasks/clean.js",
+		"/D/WebDev/php/absynt-gulp/package.json",
+		"/D/WebDev/php/absynt-gulp/gulp/tasks/browserify.js",
+		"/D/WebDev/php/absynt-gulp/src/scripts/login/login-controller.coffee",
+		"/D/WebDev/php/absynt-gulp/gulp/tasks/build.js",
+		"/D/WebDev/php/absynt/src/app/!app.coffee",
+		"/D/WebDev/php/absynt-gulp/src/scripts/app.coffee",
+		"/D/WebDev/php/absynt-gulp/src/scripts/warehouse/warehouse-controller.coffee",
+		"/D/WebDev/php/absynt-gulp/src/scripts/services-module.coffee",
+		"/D/WebDev/php/absynt/src/app/services/ajaxManager.coffee",
+		"/D/WebDev/php/absynt-gulp/src/scripts/warehouse/warehouse-module.coffee",
+		"/D/WebDev/php/absynt/src/app/services.coffee",
+		"/D/WebDev/php/absynt-gulp/gulp/tasks/coffeelint.js",
+		"/D/WebDev/php/absynt-gulp/src/scripts/warehouse/warehouse.tpl.html",
+		"/D/WebDev/php/absynt/src/app/services/httpQuery.coffee",
+		"/D/WebDev/php/absynt-gulp/src/scripts/warehouse/warehouse-resource.coffee",
+		"/D/WebDev/php/absynt/src/app/directives/resourceTable.coffee",
+		"/D/WebDev/php/absynt new/Gruntfile.js",
+		"/D/WebDev/php/absynt-gulp/gulp/tasks/less.js",
+		"/D/WebDev/php/absynt/src/app/controllers/WarehouseCtrl.coffee",
+		"/D/WebDev/php/absynt-gulp/gulp/tasks/compass.js",
+		"/D/WebDev/php/absynt-gulp/src/scripts/login/login-module.coffee",
+		"/D/WebDev/php/absynt-gulp/gulp/tasks/html2js.js",
+		"/D/WebDev/php/absynt-gulp/src/scripts/base/ng-controller.coffee",
+		"/D/WebDev/php/absynt-gulp/src/scripts/base/ng-module.coffee",
+		"/D/WebDev/php/absynt-gulp/gulp/util/handleErrors.js",
+		"/D/WebDev/php/absynt new/src/scripts/modules/login/login-module.coffee",
+		"/D/WebDev/php/absynt/backup/login.spec.coffee",
+		"/D/WebDev/php/absynt/src/app/directives/loadingOverlay.coffee",
+		"/D/WebDev/php/absynt/LICENSE",
+		"/D/WebDev/php/absynt new/build/index.html",
+		"/D/WebDev/php/gulp-starter-master/gulp/tasks/browserify.js",
+		"/D/WebDev/php/absynt new/src/scripts/app.coffee",
+		"/D/WebDev/php/absynt new/package.json",
+		"/D/WebDev/php/gulp-starter-master/package.json",
+		"/D/WebDev/php/absynt new/src/index.html",
+		"/D/WebDev/php/gulp-starter-master/gulp/tasks/build.js",
+		"/D/WebDev/php/gulp-starter-master/src/javascript/app.coffee",
+		"/D/WebDev/php/absynt-gulp/src/scripts/login.coffee"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"D:\\WebDev\\php\\absynt\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"roomData",
+			"tr",
+			"r",
+			"user",
+			"build_css",
+			"concat",
+			"vendor_files",
+			".success",
+			"angular.module",
+			"karma",
+			"contin",
+			"firefox",
+			"coffeelint",
+			"clean",
+			"less",
+			"index",
+			"less",
+			"recess",
+			"less",
+			"recess",
+			"jade",
+			"jshint",
+			"clean",
+			"wiredep",
+			"serverPath",
+			"path",
+			"server",
+			"wiredep",
+			"coffee",
+			"bundle",
+			"DocumentRoot",
+			"wiredep",
+			"bundleLogger",
+			"wiredep",
+			"template",
+			"browserify",
+			"index.html"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sass",
+			"less"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/main.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1100,
+								1100
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2487,
+								2487
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 924.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								225
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Pietruch Mateusz",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/bower_components/d3/d3.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 325414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5938,
+								5938
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1932.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/bar-chart-example.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "d3calendar.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"d3js",
+				"app\\bower_components\\d3\\d3.js"
+			],
+			[
+				"login-modu",
+				"absynt-gulp\\src\\scripts\\login\\login-module.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
