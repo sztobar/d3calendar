@@ -4,6 +4,9 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     watchify: {
       build: {
+        options: {
+          debug: true
+        },
         src: './app/app.js',
         dest: 'build/app.js'
       }
@@ -16,7 +19,6 @@ module.exports = function(grunt) {
     },
     copy: {
       build: {
-        // expand: true,
         src: 'app/index.html',
         dest: 'build/index.html'
       }
@@ -52,7 +54,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-copy');
 
-  grunt.registerTask('default', ['watchify', 'watch']);
+  grunt.registerTask('default', [
+    'watchify',
+    'watch'
+  ]);
   grunt.registerTask('build', [
     'copy',
     'less',

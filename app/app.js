@@ -3,23 +3,61 @@ var $ = require('./bower_components/jquery/dist/jquery');
 var d3 = require('./bower_components/d3/d3');
 var _ = require('./bower_components/lodash/dist/lodash');
 
+var calendar = require('./calendar')
+var calendarObject = new calendar.D3();
+
 // require('./bar-chart-example')(d3);
-var width = 960,
-    height = 500;
+/******************************** calendar size ********************************/
 
-var from = 0;
-var interval = 5;
-var to = 24 * 60 / interval;
-var intervalsData = [];
-for (var i = 0; i <= to; ++i) {
-  intervalsData.push(i);
-};
-var intervalHeight = 10;
 
-var calendar = d3.select('.calendar')
-  .attr('width', width)
-  .attr('height', intervalHeight * intervalsData.length);
+/******************************** format & scale ********************************/
+// var format = d3.time.format('%H:%M');
+// var scale = d3.time.scale()
+//   .domain([format.parse("00:00"), format.parse("24:00")]);
 
+// /******************************** time intervals ********************************/
+// var ticks = scale.ticks(d3.time.minute, 5);
+// var intervalHeight = 10;
+
+// /******************************* using invtervals to get calendar height *******************************
+// var calendarHeight = ticks.length * intervalHeight;
+// scale.range([0, calendarHeight]);
+
+// /******************************** calendar ********************************/
+// var calendar = d3.select('.calendar')
+//     .attr('width', width + margin.left + margin.right)
+//     .attr('height', calendarHeight);
+
+/******************************** xAxis ********************************/
+var calendarHeader = new calendar.Header(calendarObject);
+var calendarLegend = new calendar.Legend(calendarObject);
+
+  // .append('g')
+  //   .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+/******************************** axis ********************************/
+// var axis = d3.svg.axis()
+//     .scale(scale)
+//     .tickValues(scale.ticks(d3.time.minute, 20))
+//     .tickFormat(format)
+//     .orient('left');
+
+// calendar.append("g")
+//   .attr("class", "y axis")
+//   .attr('transform', 'translate(20,0)')
+//   .call(axis);
+
+// /******************************* grid lines *******************************
+// calendar.append("g")
+//   .attr("class", "grid")
+//   .call(d3.svg.axis()
+//     .scale(scale)
+//     .orient('left')
+//     .ticks(ticks.length)
+//     .tickSize(-width, 0, 0)
+//     .tickFormat('')
+//   );
+/*
 var rooms = 5;
 var roomsData = [{id: 1}, {id: 2}, {id: 3}, {id: 4}, {id: 5}];
 var roomWidth = width / rooms;
@@ -37,13 +75,13 @@ var rooms = calendar.selectAll('g')
 var intervalsGroup = rooms.append('g').attr('class', 'invtervals');
 
 intervalsGroup.selectAll('rect')
-    .data(intervalsData)
+    .data(ticks)
   .enter().append('rect')
     .attr('y', function(d, i) { return intervalHeight * i; })
     .attr('height', intervalHeight)
     .attr('width', roomWidth);
 
-var eventsData = require('./teventsData');
+var eventsData = require('./eventsData');
 
 function timeStrToInterval(timeStr) {
   var hours = timeStr.substr(0, 2);
@@ -73,3 +111,4 @@ var events = eventsGroup
     .on('mouseleave', function() {
       this.removeAttribute('style');
     });
+*/

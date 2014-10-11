@@ -1,0 +1,24 @@
+{
+  "roomData": [
+    {
+      "id": 1,
+      "name": "RTG1"
+    },
+    {
+      "id": 2,
+      "name": "RTG2"
+    },
+    {
+      "id": 3,
+      "name": "RTG3"
+    },
+    {
+      "id": 4,
+      "name": "RTG4"
+    },
+    {
+      "id": 5,
+      "name": "RTG5"
+    }
+  ]
+}
